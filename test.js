@@ -1,3 +1,3 @@
-console.log('testing');
-let x = 3;
-let y = 0;
+module.exports = () => {
+    return "testing " + process.env.TEST;
+}
